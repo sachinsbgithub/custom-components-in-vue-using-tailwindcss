@@ -1,4 +1,9 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
+import "./tailwind.css";
+import CustomComponets from "./index.js";
+const app = createApp(App);
 
-createApp(App).mount('#app')
+app.use(CustomComponets);
+
+app.mount("#app");
