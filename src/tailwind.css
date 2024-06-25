@@ -5,19 +5,13 @@
 @layer base {
   body {
     @apply bg-white
-    text-slate-800
-    dark:bg-slate-800
-    dark:text-white;
+      text-slate-800
+      dark:bg-slate-800
+      dark:text-white;
   }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h1 {
     @apply text-xl
-    font-bold
-    text-teal-500;
+      font-bold
+      text-teal-500;
   }
 }

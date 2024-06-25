@@ -1,3 +1,3 @@
 import Button from "./Button/CustomButton.vue";
-
-export { Button };
+import Card from "./Card/CustomCard.vue";
+export default { Button, Card };
